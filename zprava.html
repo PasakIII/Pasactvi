@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cvičení 11</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+  <form action="" class="container bg-light py-3">
+    <label for="mailbox">Komu:</label>
+    <div class="input-group">
+      <input type="text" name="mailbox" id="mailbox" class="form-control">
+      <span class="input-group-text">@</span> 
+      <select name="domain" id="domain" class="form-select">
+        <option value="educanet.cz">educanet.cz</option>
+        <option value="gmail.com">gmail.com</option>
+        <option value="pasactvi,cz">pasactvi.cz</option>
+      </select>
+    </div>
+    
+    <label for="subject">Předmět:</label>
+    <input type="text" name="subject" id="subject" class="form-control">
+    <label for="message">Zpráva:</label>
+    <textarea name="message" id="message" class="form-control"></textarea>
+    <div class="form-check">
+      <input type="checkbox" id="sign" name="sign" class="form-check-input">
+      <label for="sign" class="form-check" aria-colcount="form-check-label">Připojit podpis</label>
+    </div>
+    <div class="input-group">
+      <input type="reset" value="Smazat" class="btn btn-outline-danger">
+      <input type="submit" value="Odeslat" class="btn btn-success">
+    </div>
+    
+   
+
+  </form>
+</body>
+</html>

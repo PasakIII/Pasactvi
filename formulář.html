@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulář k objednávce</title>
+</head>
+<body>
+<h2>Objednávka</h2>
+<div><label for="produkt">Název produktu</label></div>
+<input type="text" name="Název produktu">
+
+<div><label for="počet">Počet</label></div>
+<input type="počet" name="Počet">
+
+
+
+
+   <h2>Doručovací údaje</h2>
+    <form action="">
+        <div><label for="jmeno">Jméno a příjmení:</label></div>
+        <input type="text" name="Jméno a příjmení" placeholder="Povinné">
+
+       <div><label for="adresa">Ulice a ČP:</label></div>
+        <input type="text" name="Adresa" placeholder="Povinné">
+
+        <div><label for="město">Město:</label></div>
+        <input type="text" name="Město" placeholder="Povinné">
+
+        <div><label for="email">Email:</label></div>
+        <input type="text" name="Email" placeholder="Povinné">
+
+        <div><label for="telefon">Telefon:</label></div>
+        <input type="text" name="Telefon" placeholder="Povinné">
+
+        <div><label for="datum-narozeni">Datum narození (nepovinné):</label></div>
+        <input type="date" name="datum-narozeni">
+
+        <div><label for="Země">Země:<select name="zeme" id="zeme"></div>
+            <option value="eu">EU</option>
+        <option value="neeu">Mimo EU</option></label></select>
+       
+    
+
+      <fieldset><div> <legend>Tým</legend>
+      <label for="tym1">Tvoje mama</label><input type="radio" name="tym" id="tym1">
+      <label for="tym2">Tvoje teta</label><input type="radio" name="tym" id="tym2">
+      <label for="tym3">Tvoje sestra</label><input type="radio" name="tym" id="tym3">
+      </div></fieldset>
+
+     <fieldset>
+        <legend>Spoluhráči</legend>
+        <input type="checkbox" name="spoluhraci" id="spolu1" value="nevim1"><label for="spolu1">Franta</label>
+        <input type="checkbox" name="spoluhraci" id="spolu2" value="nevim2"><label for="spolu2">Franta2</label>
+        <input type="checkbox" name="spoluhraci" id="spolu3" value="nevim3"><label for="spolu3">Franta3</label>
+     </fieldset>
+        
+
+     <label for="">Podpis:</label><textarea name="podpis" id="podpis" cols="15" rows="5">Franta je best Kappa</textarea>
+
+        <div><input type="submit" value="Odeslat objednávku"></div>
+       <div><input type="reset" value="Resetovat objednávku"></div>
+
+    </form>
+    <a href="zprava.html" class="btn">Zpráva pro nás</a>
+    
+    
+    
+</body>
+
+</html>
